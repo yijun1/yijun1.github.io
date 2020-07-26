@@ -108,6 +108,7 @@ body {
   font-size: 1em;
   color: var(--font-color);
   line-height: 2;
+  max-width: 1200px;
 }
 body .loader {
   width: 100vw;
