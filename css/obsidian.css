@@ -249,6 +249,7 @@ audio {
   position: relative;
   background: #100e17;
   border-bottom-right-radius: 200px;
+  padding-bottom: 20px;
 }
 #screen .cover {
   position: relative;
