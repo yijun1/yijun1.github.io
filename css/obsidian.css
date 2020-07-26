@@ -847,7 +847,7 @@ footer .copyright {
 }
 footer .copyright a {
   color: #fff;
-  border-bottom: 1px solid var(--dark);
+/*border-bottom: 1px solid var(--dark);*/
 }
 .search-box {
   content: "";
