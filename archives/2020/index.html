@@ -10,9 +10,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="TriDiamond Obsidian,"> 
-    
+    <meta name="description" content="有效的,"> 
     <meta name="author" content="John Doe"> 
-    <link rel="alternative" href="atom.xml" title="Hexo" type="application/atom+xml"> 
+    <link rel="alternative" href="atom.xml" title="Nanyue" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
     <link href="https://fonts.loli.net/css?family=Roboto+Mono|Rubik&display=swap" rel="stylesheet">
     
@@ -48,7 +48,7 @@
             <div></div>
         </div>
     </div>
-    <span id="config-title" style="display:none">Hexo</span>
+    <span id="config-title" style="display:none">Nanyue</span>
     <div id="loader"></div>
     <div id="single" class="page">
     <div id="top">
@@ -201,10 +201,6 @@ Qu...
 
 
  
-<link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
- 
-<script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
-  
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="/js/plugin.js"></script>
 <script src="/js/obsidian.js"></script>
@@ -336,6 +332,38 @@ Qu...
   }
 </script>
 
+ 
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var valine = new Valine();
+
+  function initValine(path) {
+    if (!path) path = window.location.pathname;
+    let language = 'en';
+    if (!language) {
+      language = 'en';
+    } else {
+      language = language.toLowerCase();
+    }
+    valine.init({
+      el: '#vcomments',
+      appId: 'QHCOIEBlyjBUMAjaE5ilzafk-gzGzoHsz',
+      appKey: 'ggeGwz8ypB9uiAIYSRH5T0PF',
+      notify: 'false',
+      verify: 'false',
+      avatar: 'mp',
+      placeholder: 'Leave your throughs behind~',
+      visitor: 'true',
+      path: path,
+      lang: language,
+    });
+  }
+
+  $(document).ready(function () {
+    initValine();
+  });
+</script>
 
 
 
