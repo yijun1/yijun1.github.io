@@ -1936,7 +1936,7 @@ h1.title {
   grid-gap: 4rem;
   max-width: var(--maxWidth);
   margin: 0 auto;
-  padding: 4rem 0;
+/*padding: 4rem 0;*/
 }
 .article .side {
   align-self: flex-start;
@@ -2312,7 +2312,7 @@ h1.title {
   position: relative;
   background: transparent;
   text-align: left;
-  top: 20px;
+/*top: 20px;*/
   width: 1200px;
 }
 .else p {
