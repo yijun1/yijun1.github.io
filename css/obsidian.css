@@ -150,9 +150,7 @@ h4 a,
 h5 a,
 h6 a {
   font-weight: 600;
-  background: #b2fefa !important;
-  background: -webkit-linear-gradient(to right, #b2fefa, #0ed2f7, #0052d4) !important;
-  background: linear-gradient(to right, #b2fefa, #0ed2f7, #0052d4) !important;
+  background: #fff;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   -webkit-box-decoration-break: clone !important;
@@ -175,6 +173,7 @@ p {
   padding: 0;
   font-weight: normal;
   list-style: none;
+  font-size: 18px;
 }
 ul {
   margin: 0;
@@ -2262,7 +2261,7 @@ h1.title {
 }
 .article-header-wrapper {
   width: 100%;
-  height: 500px;
+  height: 290px;
   background: #100e17;
   position: relative;
   z-index: 1;
@@ -2510,13 +2509,13 @@ h1.title {
 }
 .else .post-count span i {
   margin-right: 5px;
-  color: #7a7a8c;
+  color: #fff;
   font-weight: 900;
   font-style: normal;
 }
 .else .post-count span b {
   font-size: 20px;
-  color: #7a7a8c;
+  color: #fff;
   margin-right: 5px;
 }
 .else .post-tags-list {
