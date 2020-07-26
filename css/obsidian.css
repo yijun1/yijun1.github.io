@@ -2261,7 +2261,7 @@ h1.title {
 }
 .article-header-wrapper {
   width: 100%;
-  height: 290px;
+  height: 350px;
   background: #100e17;
   position: relative;
   z-index: 1;
@@ -2271,7 +2271,7 @@ h1.title {
 .article-header {
   margin: 50px auto 0 auto;
   max-width: var(--maxWidth);
-  top: 50px;
+/*top: 50px;*/
   height: 500px;
   position: relative;
   padding: 0 10em;
@@ -2742,9 +2742,6 @@ h1.title {
   font-style: italic;
   text-indent: 0.6em;
   letter-spacing: 0.6em;
-}
-.content p {
-  margin: 0 0 2em;
 }
 .content em {
   color: #9e9e9e;
